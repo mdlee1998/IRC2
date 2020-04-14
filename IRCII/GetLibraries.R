@@ -1,0 +1,10 @@
+install.packages("ape")
+install.packages("tidyverse")
+install.packages("BiocManager")
+BiocManager::install("biomformat")
+BiocManager::install("phyloseq")
+
+library(phyloseq)
+library(ape)
+library(tidyverse)
+library(biomformat)
